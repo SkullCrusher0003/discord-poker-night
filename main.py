@@ -8,7 +8,7 @@ async def on_ready():
     print("Online")
 
 @bot.command()
-async def chess(ctx):
+async def poker(ctx):
     try:
         voiceChannel = ctx.author.voice.channel
         if voiceChannel != None:
